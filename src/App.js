@@ -6,6 +6,8 @@ import { SearchBox } from "./components/card-list/search-box/search-box.componen
 
 import "./App.css";
 
+import "./index.css";
+
 class App extends Component {
   constructor() {
     super();
@@ -32,6 +34,7 @@ class App extends Component {
     );
     return (
       <div className="App">
+        <h1 className="title">Monsters Rolodex</h1>
         <SearchBox
           placeholder="Search Monster"
           handleChange={this.handleChange}
