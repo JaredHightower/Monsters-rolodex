@@ -6,8 +6,6 @@ import { SearchBox } from "./components/card-list/search-box/search-box.componen
 
 import "./App.css";
 
-import "./index.css";
-
 class App extends Component {
   constructor() {
     super();
